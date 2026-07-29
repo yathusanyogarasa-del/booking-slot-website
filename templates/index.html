@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Booking slot</title>
+
+</head>
+
+<body>
+
+    <h1>Time Slot Booking</h1>
+    <p>Welcome to my booking slot</p>
+    <p>
+        Book your prefered time slot easily
+    </p>
+
+    <form action = "/book" method = "POST">
+
+        <p>
+            Name
+            <input type = "text" placeholder = "Type your name here" name = "user_name">
+        </p>
+        <p>
+            Email address
+            <input type = "email" placeholder = "Type your email address here" name = "email_address">
+        </p>
+        <p>
+            Booking Date
+            <input type = "date" name = "booking_date">
+        </p>
+
+        <p>Available time slot</p>
+
+        <p>
+            9 AM
+            <input type = "radio" name = "slot" value = "9 AM">
+
+        </p>
+
+        <p>
+            10 AM
+            <input type = "radio" name = "slot" value = "10 AM">
+        </p>
+
+        <p>
+            11 AM
+            <input type = "radio" name = "slot" value = "11 AM">
+        </p>
+        
+        <button type = "submit">Book now</button>
+
+    </form>
+</body>
+
+</html>
